@@ -27,7 +27,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .logo-accent {
@@ -45,7 +45,7 @@ body {
 }
 
 .logo-accent {
-  padding-right: 90px;
+  padding-right: 42px;
 }
 
 
@@ -62,18 +62,23 @@ body {
   /* margin-top: 0; */
   /* margin-bottom: 0; */
 }
+
 .nav li:not(:last-child) {
   padding-right: 50px;
 }
 
-.header .nav-cont {
-  
-}
 .nav-contact {
   display: flex;
-  
+  padding: 0;
 }
 
+.nav-contact li {
+  padding-right: 50px;
+}
+
+.nav-contact li:last-child {
+  padding: 0;
+}
 
 .nav-item {
   color: var(--title-text-color);
