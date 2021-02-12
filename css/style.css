@@ -117,7 +117,11 @@ body {
 /* geroy */
 
 .geroy {
+  /* min-height: 600px; */
   background-color: var(--footergeroy-bg-color);
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .geroy-title {
@@ -125,9 +129,14 @@ body {
   font-size: 44px;
   line-height: 1.4;
   text-transform: uppercase;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   color: var(--white-text-color);
+  
+  margin-bottom: 30px;
+  /* width: 696px;
+  height: 120px; */
+  
 }
 
 .button-geroy {
@@ -139,6 +148,8 @@ body {
   letter-spacing: 0.06em;
   border: none;
   cursor: pointer;
+  padding: 10px 32px;
+  border-radius: 4px;
 }
 
 .button-geroy:hover,
@@ -149,6 +160,22 @@ body {
 
 /* fatyres */
 
+.fatyres-list {
+  display: flex;
+  padding-top: 92px;
+}
+
+.fatyres-item {
+  width: 270px;
+  /* height: 101px; */
+  height: auto;
+  margin-right: 30px;
+}
+
+.fatyres-item:last-child {
+  margin-right: 0;
+}
+
 .fatyres h3 {
   color: var(--title-text-color);
   font-weight: 700;
@@ -156,6 +183,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 .fatyres p {
@@ -164,6 +193,19 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+
+
+/* wot-we-do */
+
+.wot-we-do h2 {
+  padding-top: 94px;
+  
+  margin-bottom: 50px;
+}
+
+.wot-we-do {
+  padding-bottom: 94px;
 }
 
 .titllesecond {
@@ -175,7 +217,22 @@ body {
   letter-spacing: 0.03em;
 }
 
+.list-foto {
+  display: flex;
+}
+
+.list-foto-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* team */
+
+.team-list {
+  display: flex;
+}
+.team-list-item {
+}
+
 .team {
   background-color: var(--section-bg-color);
 }
@@ -279,7 +336,7 @@ body {
 /* filter-list */
 
 .filter-list {
-  padding-top: 50px;
+  margin-top: 50px;
   padding-bottom: 94px;
 }
 
