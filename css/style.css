@@ -25,7 +25,6 @@ body {
   margin-right: auto;
   padding: 0px 15px;
 
-
   /* outline: 1px solid green; */
   /* background-color: greenyellow; */
 }
@@ -37,8 +36,6 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 80px;
-
-  
 }
 
 header {
@@ -46,7 +43,6 @@ header {
 }
 
 .logo-accent {
-
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -73,8 +69,6 @@ header {
   align-items: center;
   padding-left: 0;
 
-  
-  
   /* margin-top: 0; */
   /* margin-bottom: 0; */
 }
@@ -134,7 +128,6 @@ header {
   text-align: center;
   padding-bottom: 200px;
   padding-top: 200px;
-  
 }
 
 .geroy-title {
@@ -145,11 +138,10 @@ header {
   /* text-align: center; */
   letter-spacing: 0.06em;
   color: var(--white-text-color);
-  
+
   margin-bottom: 30px;
   /* width: 696px;
   height: 120px; */
-  
 }
 
 .button-geroy {
@@ -179,10 +171,10 @@ header {
 
 .fatyres-list {
   display: flex;
-  
 }
 
-.fatyres-item {/* height: 101px; */
+.fatyres-item {
+  /* height: 101px; */
   height: auto;
   margin-right: 30px;
 }
@@ -209,7 +201,6 @@ header {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-
 
 /* wot-we-do */
 
@@ -264,15 +255,20 @@ header {
   border-radius: 4px;
 }
 
+.team-list-cont {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team h3 {
   color: var(--title-text-color);
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;/* text-align: center; */
+  line-height: 1.2; /* text-align: center; */
   letter-spacing: 0.03em;
 
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 10px;
 }
 
@@ -281,10 +277,10 @@ header {
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;/* text-align: center; */
+  line-height: 19px; /* text-align: center; */
   letter-spacing: 0.03em;
 
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 /* footer */
@@ -346,10 +342,8 @@ header {
   letter-spacing: 0.03em;
 
   text-align: center;
-  
+
   padding: 6px 22px;
-  
-  
 }
 
 .filter-buttton li:not(:last-child) {
@@ -390,7 +384,8 @@ header {
   letter-spacing: 0.03em;
 }
 
-.cards {/* outline: 1px solid tomato; */
+.cards {
+  /* outline: 1px solid tomato; */
   padding: 0;
   margin: 0;
 
@@ -401,7 +396,8 @@ header {
   margin-top: calc(-1 * var(--cards-gap-porfolio));
 }
 
-.cards-item {/* outline: 1px solid teal; */
+.cards-item {
+  /* outline: 1px solid teal; */
   flex-basis: calc(100% / 3 - var(--cards-gap-porfolio));
   margin-left: var(--cards-gap-porfolio);
   margin-top: var(--cards-gap-porfolio);
